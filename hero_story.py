@@ -14,7 +14,24 @@ story1 = {
 }
 
 print(story1)
+
 print(type(story1))
+
 print(story1.keys())
+
 print(story1.values())
+
 print(story1.items())
+
+print(story1.get("start"))
+
+print(story1.get("middle"))
+
+print(story1.get("end"))
+
+new_key = "hero"
+new_value = "The swung man"
+
+story1["hero"] = "The swung man"
+print(story1)
+
